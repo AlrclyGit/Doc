@@ -20,9 +20,9 @@ jobs:
       - name: copy dist file with scp
         uses: appleboy/scp-action@v0.0.1
         with:
-          host: DOC_HOST
-          username: DOC_NAME
-          password: DOC_PASS
+          host: ${{ secrets.DOC_HOST }}
+          username: ${{ secrets.DOC_NAME }}
+          password: ${{ secrets.DOC_PASS }}
           port: 2244
           source: 'docs/'
-          target: DOC_TARGET
+          target: ${{ secrets.DOC_TARGET }}
