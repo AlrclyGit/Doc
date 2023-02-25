@@ -23,6 +23,6 @@ jobs:
           host: DOC_HOST
           username: DOC_NAME
           password: DOC_PASS
-          port: 22
+          port: 2244
           source: 'docs/'
           target: DOC_TARGET
