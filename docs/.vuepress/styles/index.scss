@@ -1,0 +1,16 @@
+:root{
+    --sa-em:#1abc9c;
+    --sa-strong:black; 
+}
+
+html.dark{
+    --sa-em:#1abc9c;
+    --sa-strong: white;
+}
+
+em{
+    color: var(--sa-em);
+}
+strong{
+    color: var(--sa-strong);
+}

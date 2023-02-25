@@ -1,0 +1,4 @@
+node_modules/
+docs/.Vuepress/.*/
+docs/.Vuepress/dist/
+.DS_Store
