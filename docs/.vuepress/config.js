@@ -62,6 +62,8 @@ export default defineUserConfig({
         }),
     ],
     theme: defaultTheme({
+        contributors: false,
+        lastUpdated: false,
         navbar: [
             {
                 text: '代码之道',
