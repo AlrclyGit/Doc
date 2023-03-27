@@ -123,7 +123,8 @@ export default defineUserConfig({
                 '/code/javascript/11.原型和继承包.html',
                 '/code/javascript/12.类.html',
                 '/code/javascript/13.模块化.html',
-                '/code/javascript/14.正则表达式.html'
+                '/code/javascript/14.正则表达式.html',
+                '/code/javascript/15.异步编程.html'
             ],
             '/code/http': [
                 '/code/http/01.破冰篇.html',
