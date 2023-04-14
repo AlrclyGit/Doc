@@ -89,7 +89,7 @@ export default defineUserConfig({
                 ],
             },
             {
-                text: '其他',
+                text: '教育教学',
                 children: [
                     {
                         text: '教师资格证',
@@ -124,7 +124,8 @@ export default defineUserConfig({
                 '/code/javascript/12.类.html',
                 '/code/javascript/13.模块化.html',
                 '/code/javascript/14.正则表达式.html',
-                '/code/javascript/15.异步编程.html'
+                '/code/javascript/15.异步编程.html',
+                // '/code/javascript/17.宏任务与微任务.html'
             ],
             '/code/http': [
                 '/code/http/01.破冰篇.html',
