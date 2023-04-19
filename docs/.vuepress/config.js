@@ -103,6 +103,10 @@ export default defineUserConfig({
                                 link: '/education/comprehensive/01.单选题要点.html',
                             },
                             {
+                                text: '面试考试',
+                                link: '/education/comprehensive/01.单选题要点.html',
+                            },
+                            {
                                 text: '普通话考试',
                                 link: '/education/mandarin/01.普通话.html',
                             }
@@ -125,7 +129,7 @@ export default defineUserConfig({
                 '/code/javascript/13.模块化.html',
                 '/code/javascript/14.正则表达式.html',
                 '/code/javascript/15.异步编程.html',
-                // '/code/javascript/17.宏任务与微任务.html'
+                '/code/javascript/17.宏任务与微任务.html'
             ],
             '/code/http': [
                 '/code/http/01.破冰篇.html',
