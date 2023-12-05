@@ -117,6 +117,7 @@ export default defineUserConfig({
         ],
         sidebar: {
             '/code/javascript': [
+                '/code/javascript/03.字符串.html',
                 '/code/javascript/04.数组.html',
                 '/code/javascript/05.Symbol.html',
                 '/code/javascript/06.SetAndWeakSet.html',
