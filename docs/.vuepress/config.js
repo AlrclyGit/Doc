@@ -74,7 +74,7 @@ export default defineUserConfig({
                     },
                     {
                         text: 'JavaScript',
-                        link: '/code/javascript/04.数组.html',
+                        link: '/code/javascript/03.基础类型.html',
                     }
                 ],
             },
@@ -117,7 +117,7 @@ export default defineUserConfig({
         ],
         sidebar: {
             '/code/javascript': [
-                '/code/javascript/03.字符串.html',
+                '/code/javascript/03.基础类型.html',
                 '/code/javascript/04.数组.html',
                 '/code/javascript/05.Symbol.html',
                 '/code/javascript/06.SetAndWeakSet.html',
