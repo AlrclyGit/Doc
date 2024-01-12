@@ -24,5 +24,5 @@ jobs:
           username: ${{ secrets.DOC_NAME }}
           password: ${{ secrets.DOC_PASS }}
           port: 2244
-          source: 'docs/'
+          source: 'public'
           target: ${{ secrets.DOC_TARGET }}
