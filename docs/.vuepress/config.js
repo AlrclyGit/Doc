@@ -5,6 +5,7 @@ import { docsearchPlugin } from '@vuepress/plugin-docsearch'
 export default defineUserConfig({
     base: '/',
     lang: 'zh-CN',
+    dest: "public",
     title: '俊介文档库',
     description: '一个公开的文档库，致力于检索、分享系统化的知识。',
     head: [
