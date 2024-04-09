@@ -76,6 +76,10 @@ export default defineUserConfig({
                     {
                         text: 'JavaScript',
                         link: '/code/javascript/03.基础类型.html',
+                    },
+                    {
+                        text: 'Vue.js',
+                        link: '/code/vue/01.基础入门.html',
                     }
                 ],
             },
@@ -134,6 +138,9 @@ export default defineUserConfig({
                 '/code/javascript/17.宏任务与微任务.html',
                 '/code/javascript/18.手写 PROMISE 核心代码.html',
                 '/code/javascript/19.DOM 操作.html'
+            ],
+            '/code/vue': [
+                '/code/vue/01.基础入门.html',
             ],
             '/code/http': [
                 '/code/http/01.破冰篇.html',
