@@ -140,7 +140,9 @@ export default defineUserConfig({
                 '/code/javascript/19.DOM 操作.html'
             ],
             '/code/vue': [
+                '/code/vue/00.NVM 和 NPM',
                 '/code/vue/01.基础入门.html',
+                '/code/vue/02.Test.html',
             ],
             '/code/http': [
                 '/code/http/01.破冰篇.html',
