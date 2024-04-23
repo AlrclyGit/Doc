@@ -143,6 +143,7 @@ export default defineUserConfig({
                 '/code/vue/00.NVM 和 NPM',
                 '/code/vue/01.基础入门.html',
                 '/code/vue/02.组件化开发.html',
+                '/code/vue/03.组件化细节.html',
             ],
             '/code/http': [
                 '/code/http/01.破冰篇.html',
