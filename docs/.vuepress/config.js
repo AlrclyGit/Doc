@@ -67,7 +67,7 @@ export default defineUserConfig({
     lastUpdated: false,
     navbar: [
       {
-        text: '代码之道',
+        text: '编程之道',
         children: [
           {
             text: '基础部分',
@@ -86,15 +86,15 @@ export default defineUserConfig({
               },
             ],
           },
-          // {
-          //   text: '框架部分',
-          //   children: [
-          //     {
-          //       text: 'Vue.JS',
-          //       link: '/code/http/01.破冰篇.html',
-          //     },
-          //   ],
-          // },
+          {
+            text: '框架部分',
+            children: [
+              {
+                text: 'Vue.JS',
+                link: '/code/vue/01.为什么选择.html',
+              },
+            ],
+          },
           {
             text: '拓展部分',
             children: [
@@ -125,7 +125,7 @@ export default defineUserConfig({
       '/code/css': ['/code/css/11.GRID 栅格系统.html'],
       '/code/javascript': ['/code/javascript/01.走进 JavaScript 黑洞.html'],
       '/code/node': ['/code/node/01.NVM 和 NPM.html'],
-      '/code/vue': ['/code/http/01.破冰篇.html', '/code/http/02.基础篇.html', '/code/http/03.进阶篇.html'],
+      '/code/vue': ['/code/vue/01.为什么选择.html'],
       '/code/http': ['/code/http/01.破冰篇.html', '/code/http/02.基础篇.html', '/code/http/03.进阶篇.html'],
       '/music/theory': [
         '/music/theory/01.音名、五线谱谱号与音高.html',
