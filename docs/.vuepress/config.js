@@ -133,6 +133,7 @@ export default defineUserConfig({
         '/code/typescript/02.TypeScript 函数.html',
         '/code/typescript/03.TypeScript 类.html',
         '/code/typescript/04.TypeScript 接口.html',
+        '/code/typescript/05.TypeScript 装饰器.html',
       ],
       '/code/node': ['/code/node/01.NVM 和 NPM.html'],
       '/code/vue': ['/code/vue/01.为什么选择.html', '/code/vue/02.快速开始.html'],
