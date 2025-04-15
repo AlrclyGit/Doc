@@ -88,6 +88,10 @@ export default defineUserConfig({
                 text: 'Node.JS',
                 link: '/code/node/01.NVM 和 NPM.html',
               },
+              {
+                text: 'PostgreSQL',
+                link: '/code/postgresql/1.基本操作.html',
+              },
             ],
           },
           {
@@ -138,6 +142,20 @@ export default defineUserConfig({
         '/code/typescript/07.TypeScript 类型工具.html',
       ],
       '/code/node': ['/code/node/01.NVM 和 NPM.html'],
+      '/code/postgresql': [
+        '/code/postgresql/1.基本操作.html',
+        '/code/postgresql/2.数据类型、运算符.html',
+        '/code/postgresql/3.数据库函数.html',
+        '/code/postgresql/4.数据库索引.html',
+        '/code/postgresql/5.数据库视图.html',
+        '/code/postgresql/6.CRUD.html',
+        '/code/postgresql/7.主键和外键.html',
+        '/code/postgresql/8.数据表约束.html',
+        '/code/postgresql/9.表查询操作.html',
+        '/code/postgresql/10.子查询.html',
+        '/code/postgresql/11.结构集合并.html',
+        '/code/postgresql/12.备份、恢复数据库.html',
+      ],
       '/code/vue': ['/code/vue/01.为什么选择.html', '/code/vue/02.快速开始.html'],
       '/code/http': ['/code/http/01.破冰篇.html', '/code/http/02.基础篇.html', '/code/http/03.进阶篇.html'],
       '/music/theory': [
