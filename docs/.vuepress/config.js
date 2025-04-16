@@ -64,7 +64,7 @@ export default defineUserConfig({
   ],
   theme: defaultTheme({
     contributors: false,
-    lastUpdated: false,
+    lastUpdated: true,
     navbar: [
       {
         text: '编程之道',
@@ -130,9 +130,9 @@ export default defineUserConfig({
       },
     ],
     sidebar: {
-      '/code/css': ['/code/css/11.GRID 栅格系统.html'],
-      '/code/javascript': ['/code/javascript/01.走进 JavaScript 黑洞.html'],
-      '/code/typescript': [
+      '/code/css/': ['/code/css/11.GRID 栅格系统.html'],
+      '/code/javascript/': ['/code/javascript/01.走进 JavaScript 黑洞.html'],
+      '/code/typescript/': [
         '/code/typescript/01.TypeScript 变量.html',
         '/code/typescript/02.TypeScript 函数.html',
         '/code/typescript/03.TypeScript 类.html',
@@ -141,8 +141,8 @@ export default defineUserConfig({
         '/code/typescript/06.TypeScript 命名空间.html',
         '/code/typescript/07.TypeScript 类型工具.html',
       ],
-      '/code/node': ['/code/node/01.NVM 和 NPM.html'],
-      '/code/postgresql': [
+      '/code/node/': ['/code/node/01.NVM 和 NPM.html'],
+      '/code/postgresql/': [
         '/code/postgresql/1.基本操作.html',
         '/code/postgresql/2.数据类型、运算符.html',
         '/code/postgresql/3.数据库函数.html',
@@ -156,9 +156,9 @@ export default defineUserConfig({
         '/code/postgresql/11.结构集合并.html',
         '/code/postgresql/12.备份、恢复数据库.html',
       ],
-      '/code/vue': ['/code/vue/01.为什么选择.html', '/code/vue/02.快速开始.html'],
-      '/code/http': ['/code/http/01.破冰篇.html', '/code/http/02.基础篇.html', '/code/http/03.进阶篇.html'],
-      '/music/theory': [
+      '/code/vue/': ['/code/vue/01.为什么选择.html', '/code/vue/02.快速开始.html'],
+      '/code/http/': ['/code/http/01.破冰篇.html', '/code/http/02.基础篇.html', '/code/http/03.进阶篇.html'],
+      '/music/theory/': [
         '/music/theory/01.音名、五线谱谱号与音高.html',
         '/music/theory/02.小节、力度记号与反复记号.html',
         '/music/theory/03.认识音符、休止符、时值与拍号.html',
