@@ -89,7 +89,7 @@ export default defineUserConfig({
                 link: '/code/node/01.NVM 和 NPM.html',
               },
               {
-                text: 'postgre',
+                text: 'PostgreSQL',
                 link: '/code/postgre/1.基本操作.html',
               },
             ],
