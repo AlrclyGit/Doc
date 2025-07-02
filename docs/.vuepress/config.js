@@ -1,6 +1,6 @@
-import { defineUserConfig } from 'vuepress';
-import { defaultTheme } from '@vuepress/theme-default';
-import { docsearchPlugin } from '@vuepress/plugin-docsearch';
+import { defineUserConfig } from 'vuepress'
+import { defaultTheme } from '@vuepress/theme-default'
+import { docsearchPlugin } from '@vuepress/plugin-docsearch'
 
 export default defineUserConfig({
   base: '/',
@@ -101,11 +101,19 @@ export default defineUserConfig({
                 text: 'Vue.JS',
                 link: '/code/vue/01.为什么选择.html',
               },
+              {
+                text: 'NestJS',
+                link: '/code/nest/',
+              },
             ],
           },
           {
             text: '拓展部分',
             children: [
+              {
+                text: 'Docker',
+                link: '/code/docker/docker.html',
+              },
               {
                 text: 'HTTP 协议',
                 link: '/code/http/01.破冰篇.html',
@@ -167,4 +175,4 @@ export default defineUserConfig({
       ],
     },
   }),
-});
+})
