@@ -1,6 +1,6 @@
-import { defineUserConfig } from 'vuepress'
-import { defaultTheme } from '@vuepress/theme-default'
-import { docsearchPlugin } from '@vuepress/plugin-docsearch'
+import { docsearchPlugin } from '@vuepress/plugin-docsearch';
+import { defaultTheme } from '@vuepress/theme-default';
+import { defineUserConfig } from 'vuepress';
 
 export default defineUserConfig({
   base: '/',
@@ -164,9 +164,11 @@ export default defineUserConfig({
         '/code/postgre/11.结构集合并.html',
         '/code/postgre/12.备份、恢复数据库.html',
       ],
-      '/code/vue/': ['/code/vue/01.为什么选择.html', '/code/vue/02.快速开始.html'],
+      '/code/vue/': [
+        '/code/vue/01.为什么选择.html',
+        '/code/vue/02.快速开始.html',
+      ],
       '/code/nestjs/': [
-        '/code/nestjs/01.解释 NestJS.html',
         '/code/nestjs/02.ICO 控制反转 DI 依赖注入.html',
         '/code/nestjs/03.装饰器.html',
         '/code/nestjs/05.NestJS CLI.html',
@@ -193,7 +195,11 @@ export default defineUserConfig({
         '/code/nestjs/27.NestJS 多表联查.html',
         '/code/nestjs/28.NestJS 事物.html',
       ],
-      '/code/http/': ['/code/http/01.破冰篇.html', '/code/http/02.基础篇.html', '/code/http/03.进阶篇.html'],
+      '/code/http/': [
+        '/code/http/01.破冰篇.html',
+        '/code/http/02.基础篇.html',
+        '/code/http/03.进阶篇.html',
+      ],
       '/music/theory/': [
         '/music/theory/01.音名、五线谱谱号与音高.html',
         '/music/theory/02.小节、力度记号与反复记号.html',
@@ -203,4 +209,4 @@ export default defineUserConfig({
       ],
     },
   }),
-})
+});
