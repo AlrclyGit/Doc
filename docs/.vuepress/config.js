@@ -1,6 +1,6 @@
-import { docsearchPlugin } from '@vuepress/plugin-docsearch';
-import { defaultTheme } from '@vuepress/theme-default';
-import { defineUserConfig } from 'vuepress';
+import { docsearchPlugin } from '@vuepress/plugin-docsearch'
+import { defaultTheme } from '@vuepress/theme-default'
+import { defineUserConfig } from 'vuepress'
 
 export default defineUserConfig({
   base: '/',
@@ -67,6 +67,34 @@ export default defineUserConfig({
     lastUpdated: false,
     navbar: [
       {
+        text: '示波案边',
+        children: [
+          {
+            text: '基础部分',
+            children: [
+              {
+                text: '电子电路基础',
+                link: '/electronics/circuit/01.电流.html',
+              },
+            ],
+          },
+        ],
+      },
+      {
+        text: '音乐让我说',
+        children: [
+          {
+            text: '叨叨冯聊音乐',
+            children: [
+              {
+                text: '基础乐理课堂',
+                link: '/music/theory/01.音名、五线谱谱号与音高.html',
+              },
+            ],
+          },
+        ],
+      },
+      {
         text: '编程之道',
         children: [
           {
@@ -122,22 +150,22 @@ export default defineUserConfig({
           },
         ],
       },
-      {
-        text: '音乐让我说',
-        children: [
-          {
-            text: '叨叨冯聊音乐',
-            children: [
-              {
-                text: '基础乐理课堂',
-                link: '/music/theory/01.音名、五线谱谱号与音高.html',
-              },
-            ],
-          },
-        ],
-      },
     ],
     sidebar: {
+      // 电子电路
+      '/electronics/circuit/': [
+        '/electronics/circuit/01.电流.html',
+        '/electronics/circuit/02.电压.html',
+      ],
+      // 音乐
+      '/music/theory/': [
+        '/music/theory/01.音名、五线谱谱号与音高.html',
+        '/music/theory/02.小节、力度记号与反复记号.html',
+        '/music/theory/03.认识音符、休止符、时值与拍号.html',
+        '/music/theory/04.特殊拍号、数拍方法、符点与连线.html',
+        '/music/theory/05.认识、理解大小调音阶及调号.html',
+      ],
+      // 编程
       '/code/css/': ['/code/css/11.GRID 栅格系统.html'],
       '/code/javascript/': ['/code/javascript/01.走进 JavaScript 黑洞.html'],
       '/code/typescript/': [
@@ -200,13 +228,6 @@ export default defineUserConfig({
         '/code/http/02.基础篇.html',
         '/code/http/03.进阶篇.html',
       ],
-      '/music/theory/': [
-        '/music/theory/01.音名、五线谱谱号与音高.html',
-        '/music/theory/02.小节、力度记号与反复记号.html',
-        '/music/theory/03.认识音符、休止符、时值与拍号.html',
-        '/music/theory/04.特殊拍号、数拍方法、符点与连线.html',
-        '/music/theory/05.认识、理解大小调音阶及调号.html',
-      ],
     },
   }),
-});
+})
