@@ -1,18 +1,3 @@
 :root {
-  --sa-em: #1abc9c;
-  --sa-strong: black;
-  --content-width: 1024px;
-}
-
-html.dark {
-  --sa-em: #1abc9c;
-  --sa-strong: white;
-}
-
-em {
-  color: var(--sa-em);
-}
-
-strong {
-  color: var(--sa-strong);
+  --content-width:80%;
 }
