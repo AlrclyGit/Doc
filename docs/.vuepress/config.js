@@ -1,3 +1,5 @@
+import { katexPlugin } from '@renovamen/vuepress-plugin-katex'
+import { mermaidPlugin } from '@renovamen/vuepress-plugin-mermaid'
 import { docsearchPlugin } from '@vuepress/plugin-docsearch'
 import { defaultTheme } from '@vuepress/theme-default'
 import { defineUserConfig } from 'vuepress'
@@ -13,6 +15,8 @@ export default defineUserConfig({
     ['link', { rel: 'apple-touch-icon', href: '/vuepress.ico' }],
   ],
   plugins: [
+    mermaidPlugin(),
+    katexPlugin(),
     docsearchPlugin({
       appId: 'IYMYJMZXL9',
       apiKey: '111e0f1ad4f57a9b528863307555ba2e',
