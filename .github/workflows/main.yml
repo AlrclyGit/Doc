@@ -2,8 +2,8 @@ name: SADoc Automation
 
 on:
   push:
-    branches: [ main ]
-    
+    branches: [main]
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,7 +12,7 @@ jobs:
       - name: install nodejs
         uses: actions/setup-node@master
         with:
-          node-version: "16.17.0"
+          node-version: '22.17.0'
       - name: install deps
         run: npm install
       - name: build app
