@@ -2,7 +2,6 @@ import { viteBundler } from '@vuepress/bundler-vite'
 import { docsearchPlugin } from '@vuepress/plugin-docsearch'
 import { markdownChartPlugin } from '@vuepress/plugin-markdown-chart'
 import { markdownMathPlugin } from '@vuepress/plugin-markdown-math'
-import { prismjsPlugin } from '@vuepress/plugin-prismjs'
 import { defaultTheme } from '@vuepress/theme-default'
 import { defineUserConfig } from 'vuepress'
 
@@ -26,7 +25,6 @@ export default defineUserConfig({
   plugins: [
     markdownChartPlugin({ mermaid: true }),
     markdownMathPlugin(),
-    prismjsPlugin(),
     docsearchPlugin({
       appId: 'IYMYJMZXL9',
       apiKey: '111e0f1ad4f57a9b528863307555ba2e',
@@ -87,7 +85,7 @@ export default defineUserConfig({
             children: [
               {
                 text: '电子电路基础',
-                link: '/electronics/circuit/01.电流.html',
+                link: '/electronics/circuit/01.电流、电压、电阻.html',
               },
             ],
           },
