@@ -98,6 +98,7 @@ export default defineUserConfig({
         '/electronics/circuit/01.电流、电压、电阻.html',
         '/electronics/circuit/02.交流电与直流电.html',
         '/electronics/circuit/03.电路信号.html',
+        '/electronics/circuit/04.电阻器.html',
       ],
     },
   }),
