@@ -1,3 +1,24 @@
 :root {
   --content-width:80%;
 }
+
+/* 加粗样式增强 */
+strong,
+b {
+  font-weight: bold;
+  color: var(--vp-c-accent-bg);
+  background: rgba(10, 126, 164, 0.1);
+  padding: 0 2px;
+  border-radius: 2px;
+}
+
+/* 斜体样式增强 */
+em,
+i {
+  font-style: italic;
+  color: var(--vp-c-accent-bg);
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: var(--vp-c-accent-bg);
+  text-underline-offset: 2px;
+}

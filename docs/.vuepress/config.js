@@ -100,6 +100,7 @@ export default defineUserConfig({
         '/electronics/circuit/03.电路信号.html',
         '/electronics/circuit/04.电阻器.html',
         '/electronics/circuit/05.电容器.html',
+        // '/electronics/circuit/06.电感器.html',
       ],
     },
   }),
