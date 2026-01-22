@@ -1,9 +1,9 @@
-import { viteBundler } from '@vuepress/bundler-vite'
-import { docsearchPlugin } from '@vuepress/plugin-docsearch'
-import { markdownChartPlugin } from '@vuepress/plugin-markdown-chart'
-import { markdownMathPlugin } from '@vuepress/plugin-markdown-math'
-import { defaultTheme } from '@vuepress/theme-default'
-import { defineUserConfig } from 'vuepress'
+import { viteBundler } from '@vuepress/bundler-vite';
+import { docsearchPlugin } from '@vuepress/plugin-docsearch';
+import { markdownChartPlugin } from '@vuepress/plugin-markdown-chart';
+import { markdownMathPlugin } from '@vuepress/plugin-markdown-math';
+import { defaultTheme } from '@vuepress/theme-default';
+import { defineUserConfig } from 'vuepress';
 
 export default defineUserConfig({
   base: '/',
@@ -100,8 +100,9 @@ export default defineUserConfig({
         '/electronics/circuit/03.电路信号.html',
         '/electronics/circuit/04.电阻器.html',
         '/electronics/circuit/05.电容器.html',
-        // '/electronics/circuit/06.电感器.html',
+        '/electronics/circuit/06.电感器.html',
+        '/electronics/circuit/07.滤波器.html',
       ],
     },
   }),
-})
+});
