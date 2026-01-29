@@ -14,13 +14,6 @@ export default defineUserConfig({
   head: [
     ['link', { rel: 'icon', href: '/vuepress.ico' }],
     ['link', { rel: 'apple-touch-icon', href: '/vuepress.ico' }],
-    // [
-    //   'link',
-    //   {
-    //     rel: 'stylesheet',
-    //     href: 'https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css',
-    //   },
-    // ],
   ],
   plugins: [
     markdownChartPlugin({ mermaid: true }),
@@ -81,40 +74,38 @@ export default defineUserConfig({
         text: '电子电路',
         children: [
           {
-            text: '基础部分',
-            children: [
-              {
-                text: '必修 3',
-                link: '/electricity/basics/required3/',
-              },
-              {
-                text: '选择性必修 2',
-                link: '/electricity/basics/elective2/',
-              },
-            ],
+            text: '电子电路基础',
+            link: '/electricity/fundamentals/01.电流、电压、电阻.html',
           },
+        ],
+      },
+      {
+        text: '音乐让我说',
+        children: [
           {
-            text: '实战部分',
-            children: [
-              {
-                text: '电子电路维修（赵全）',
-                link: '/electricity/combat/zq/01.电流、电压、电阻.html',
-              },
-            ],
+            text: '叨叨冯乐理课',
+            link: '/music/theory/01.音名、五线谱谱号与音高.html',
           },
         ],
       },
     ],
     sidebar: {
       // 电子电路
-      '/electricity/combat/zq/': [
-        '/electricity/combat/zq/01.电流、电压、电阻.html',
-        '/electricity/combat/zq/02.交流电与直流电.html',
-        '/electricity/combat/zq/03.电路信号.html',
-        '/electricity/combat/zq/04.电阻器.html',
-        '/electricity/combat/zq/05.电容器.html',
-        '/electricity/combat/zq/06.电感器.html',
-        '/electricity/combat/zq/07.滤波器.html',
+      '/electricity/fundamentals/': [
+        '/electricity/fundamentals/01.电流、电压、电阻.html',
+        '/electricity/fundamentals/02.交流电与直流电.html',
+        '/electricity/fundamentals/03.电路信号.html',
+        '/electricity/fundamentals/04.电阻器.html',
+        '/electricity/fundamentals/05.电容器.html',
+        '/electricity/fundamentals/06.电感器.html',
+        '/electricity/fundamentals/07.滤波器.html',
+      ],
+      '/music/theory/': [
+        '/music/theory/01.音名、五线谱谱号与音高.html',
+        '/music/theory/02.小节、力度记号与反复记号.html',
+        '/music/theory/03.认识音符、休止符、时值与拍号.html',
+        '/music/theory/04.特殊拍号、数拍方法、符点与连线.html',
+        '/music/theory/05.认识、理解大小调音阶及调号.html',
       ],
     },
   }),
