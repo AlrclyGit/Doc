@@ -14,13 +14,13 @@ export default defineUserConfig({
   head: [
     ['link', { rel: 'icon', href: '/vuepress.ico' }],
     ['link', { rel: 'apple-touch-icon', href: '/vuepress.ico' }],
-    [
-      'link',
-      {
-        rel: 'stylesheet',
-        href: 'https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css',
-      },
-    ],
+    // [
+    //   'link',
+    //   {
+    //     rel: 'stylesheet',
+    //     href: 'https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css',
+    //   },
+    // ],
   ],
   plugins: [
     markdownChartPlugin({ mermaid: true }),
@@ -84,8 +84,21 @@ export default defineUserConfig({
             text: '基础部分',
             children: [
               {
-                text: '电子电路基础',
-                link: '/electronics/circuit/01.电流、电压、电阻.html',
+                text: '必修 3',
+                link: '/electricity/basics/required3/',
+              },
+              {
+                text: '选择性必修 2',
+                link: '/electricity/basics/elective2/',
+              },
+            ],
+          },
+          {
+            text: '实战部分',
+            children: [
+              {
+                text: '电子电路维修（赵全）',
+                link: '/electricity/combat/zq/01.电流、电压、电阻.html',
               },
             ],
           },
@@ -94,14 +107,14 @@ export default defineUserConfig({
     ],
     sidebar: {
       // 电子电路
-      '/electronics/circuit/': [
-        '/electronics/circuit/01.电流、电压、电阻.html',
-        '/electronics/circuit/02.交流电与直流电.html',
-        '/electronics/circuit/03.电路信号.html',
-        '/electronics/circuit/04.电阻器.html',
-        '/electronics/circuit/05.电容器.html',
-        '/electronics/circuit/06.电感器.html',
-        '/electronics/circuit/07.滤波器.html',
+      '/electricity/combat/zq/': [
+        '/electricity/combat/zq/01.电流、电压、电阻.html',
+        '/electricity/combat/zq/02.交流电与直流电.html',
+        '/electricity/combat/zq/03.电路信号.html',
+        '/electricity/combat/zq/04.电阻器.html',
+        '/electricity/combat/zq/05.电容器.html',
+        '/electricity/combat/zq/06.电感器.html',
+        '/electricity/combat/zq/07.滤波器.html',
       ],
     },
   }),
