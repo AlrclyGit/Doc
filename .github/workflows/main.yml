@@ -1,8 +1,8 @@
 name: SADoc Automation
 
-on:
+于:
   push:
-    branches: [main]
+    分支: [main]
 
 jobs:
   build:
@@ -23,6 +23,6 @@ jobs:
           host: ${{ secrets.DOC_HOST }}
           username: ${{ secrets.DOC_NAME }}
           key: ${{ secrets.DOC_KEY }}
-          port: 2244
+          port: 22624
           source: 'public'
           target: ${{ secrets.DOC_TARGET }}
