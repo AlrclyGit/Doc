@@ -23,6 +23,6 @@ jobs:
           host: ${{ secrets.DOC_HOST }}
           username: ${{ secrets.DOC_NAME }}
           password: ${{ secrets.DOC_KEY }}
-          port: 22624
+          port: 5243
           source: 'public'
           target: ${{ secrets.DOC_TARGET }}
