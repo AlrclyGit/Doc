@@ -12,7 +12,7 @@ jobs:
       - name: install nodejs
         uses: actions/setup-node@master
         with:
-          node-version: '24.14.0'
+          node-version: "24.14.0"
       - name: install deps
         run: npm install
       - name: build app
@@ -24,6 +24,6 @@ jobs:
           username: ${{ secrets.DOC_NAME }}
           password: ${{ secrets.DOC_KEY }}
           port: 5243
-          source: 'docs/.vitepress/dist/*'
-          target: '/public/'
+          source: "docs/.vitepress/dist/*"
+          target: "/public/"
           strip_components: 3
