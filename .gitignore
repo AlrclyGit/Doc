@@ -1,5 +1,6 @@
 .DS_Store
 .output
 docs/.vitepress/dist/
+docs/.vitepress/cache/
 node_modules/
 package-lock.json

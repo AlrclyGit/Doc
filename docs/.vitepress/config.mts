@@ -54,7 +54,7 @@ export default defineConfig({
     // 导航菜单
     nav: [
       { text: '主页', link: '/' },
-      { text: '代码之道', items: [{ text: 'Node.js', link: '/code/nodejs/01.NVM 和 NPM' }] },
+      { text: '代码之道', items: [{ text: 'Node.js', link: '/code/nodejs/00.NVM 和 NPM' }] },
       { text: '音乐让我说', items: [{ text: '叨叨冯乐理课', link: '/music/theory/01.音名、五线谱谱号与音高' }] },
     ],
     // 侧边栏菜单
@@ -62,7 +62,7 @@ export default defineConfig({
       '/code/': [
         {
           text: 'Node.js',
-          items: [{ text: 'NVM 和 NPM', link: '/code/nodejs/01.NVM 和 NPM' }],
+          items: [{ text: 'NVM 和 NPM', link: '/code/nodejs/00.NVM 和 NPM' }],
         },
       ],
       '/music/': [
