@@ -25,5 +25,5 @@ jobs:
           password: ${{ secrets.DOC_KEY }}
           port: 5243
           source: 'docs/.vitepress/dist/*'
-          strip_components: 3 
-          target: '/'
+          target: '/public/'
+          strip_components: 3
