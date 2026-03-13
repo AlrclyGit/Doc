@@ -25,5 +25,5 @@ jobs:
           password: ${{ secrets.DOC_KEY }}
           port: 5243
           source: "docs/.vitepress/dist/*"
-          target: "/public/"
+          target: "/opt/1panel/www/sites/doc.alrcly.com/index/"
           strip_components: 3
