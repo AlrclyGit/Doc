@@ -8,7 +8,7 @@ hero:
   actions:
     - theme: brand
       text: 关于文档库
-      link: /about/
+      link: about
     - theme: alt
       text: 俊介历险记
       link: https://www.alrcly.com

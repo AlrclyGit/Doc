@@ -11,6 +11,12 @@ export default defineConfig({
   themeConfig: {
     logo: '/logo.ico',
     outlineTitle: '本页目录',
+    // 404页面
+    notFound: {
+      title: '页面找不到了',
+      quote: '这里的冷冰冰的，看来你走错地方了。',
+      linkText: '返回首页',
+    },
     // 搜索
     search: {
       provider: 'local',
