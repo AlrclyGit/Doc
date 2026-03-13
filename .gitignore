@@ -1,6 +1,5 @@
 .DS_Store
 .output
+docs/.vitepress/dist/
 node_modules/
 package-lock.json
-docs/.vuepress/.cache
-docs/.vuepress/.temp
