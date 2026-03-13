@@ -48,8 +48,8 @@ export default defineConfig({
     },
     // 社交链接
     socialLinks: [
-      { icon: 'github', link: '' },
-      { icon: 'mastodon', link: '' },
+      { icon: 'github', link: 'https://github.com/AlrclyGit' },
+      { icon: 'mastodon', link: 'https://mastodon.icu' },
     ],
     // 导航菜单
     nav: [
