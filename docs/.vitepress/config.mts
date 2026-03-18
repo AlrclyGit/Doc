@@ -80,6 +80,7 @@ export default defineConfig({
             { text: '认识音符、休止符、时值与拍号', link: '/music/theory/03.认识音符、休止符、时值与拍号' },
             { text: '特殊拍号、数拍方法、符点与连线', link: '/music/theory/04.特殊拍号、数拍方法、符点与连线' },
             { text: '认识、理解大小调音阶及调号', link: '/music/theory/05.认识、理解大小调音阶及调号' },
+            { text: '认识音程与音程计算的解题技巧', link: '/music/theory/06.认识音程与音程计算的解题技巧' },
           ],
         },
       ],
