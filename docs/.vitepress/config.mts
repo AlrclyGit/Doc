@@ -8,6 +8,9 @@ export default defineConfig({
     ['link', { rel: 'icon', href: '/logo.ico' }],
     ['link', { rel: 'apple-touch-icon', href: '/logo.ico' }],
   ],
+  markdown: {
+    math: true,
+  },
   themeConfig: {
     logo: '/logo.ico',
     outlineTitle: '本页目录',
