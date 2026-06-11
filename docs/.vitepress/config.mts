@@ -65,6 +65,19 @@ export default defineConfig({
       { text: '主页', link: '/' },
       { text: '代码之道', items: [{ text: 'Node.js', link: '/code/nodejs/00.NVM 和 NPM' }] },
       { text: '音乐让我说', items: [{ text: '叨叨冯乐理课', link: '/music/theory/01.音名、五线谱谱号与音高' }] },
+      {
+        text: '遇事不决',
+        items: [
+          {
+            text: '电磁学',
+            items: [
+              { text: '电场力学篇', link: '/work/electromagnetism/electric-field-power/01.电荷量、元电荷、电荷守恒定律' },
+              // { text: '电场能量篇', link: '/work/electromagnetism/electricfielda-energy/01' },
+              // { text: '电场综合篇', link: '/work/electromagnetism/electricfieldb-composite/01' },
+            ],
+          },
+        ],
+      },
     ],
     // 侧边栏菜单
     sidebar: {
@@ -84,9 +97,25 @@ export default defineConfig({
             { text: '特殊拍号、数拍方法、符点与连线', link: '/music/theory/04.特殊拍号、数拍方法、符点与连线' },
             { text: '认识、理解大小调音阶及调号', link: '/music/theory/05.认识、理解大小调音阶及调号' },
             { text: '认识音程与音程计算的解题技巧', link: '/music/theory/06.认识音程与音程计算的解题技巧' },
+            // { text: '古典和弦：三和弦、七和弦与转位', link: '/music/theory/07.古典和弦：三和弦、七和弦的名称与转位' },
           ],
         },
       ],
+      '/work/electromagnetism/electric-field-power': [
+        {
+          text: '电场力学篇',
+          items: [
+            { text: '电荷量、元电荷、电荷守恒定律', link: '/work/electromagnetism/electric-field-power/01.电荷量、元电荷、电荷守恒定律' },
+            { text: '起电与验电器', link: '/work/electromagnetism/electric-field-power/02.起电与验电器.md' },
+          ],
+        },
+      ],
+      // '/work/electromagnetism/electricfielda-energy': [
+      //   {
+      //     text: '电场能量篇',
+      //     items: [{ text: 'AAA', link: '/work/electromagnetism/electricfielda-energy/01' }],
+      //   },
+      // ],
     },
   },
 });
