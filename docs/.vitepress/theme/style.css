@@ -1,0 +1,30 @@
+/* 自定义字体 */
+:root {
+  --vp-font-family-base: 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif;
+  --vp-font-family-mono: 'SF Mono', 'Fira Code', 'Consolas', monospace;
+}
+
+/* 标题字体 */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif;
+}
+
+/* 正文字体 */
+p,
+li,
+a,
+span,
+div {
+  font-family: 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif;
+}
+
+/* 代码字体 */
+code,
+pre {
+  font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace;
+}

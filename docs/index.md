@@ -14,8 +14,8 @@ hero:
       link: https://www.alrcly.com
 
 features:
-  - title: 基于 VuePress 搭建
-    details: 文档库基于 VuePress 搭建，有着良好的性能和阅读体验。
+  - title: 基于 VitePress 搭建
+    details: 文档库基于 VitePress 搭建，有着良好的性能和阅读体验。
   - title: 方便快捷的全局搜索
     details: 使用 Docsearch 实现的全局搜索，可以在毫秒级的响应时间内，获取你想要的信息。
   - title: 无限进步的学习理念
