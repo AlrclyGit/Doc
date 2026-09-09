@@ -100,6 +100,7 @@ export default defineConfig({
             { text: '07 古典：三和弦、七和弦与转位', link: '/music/theory/07.古典和弦：三和弦、七和弦的名称与转位' },
             { text: '08 爵士：拓展对和弦的认识', link: '/music/theory/08.爵士和弦：拓展对和弦的认识' },
             { text: '09 作曲旋律篇：和弦外音', link: '/music/theory/09.作曲旋律篇：和弦外音' },
+            { text: '10 作曲和弦篇：五度圈和和弦进程', link: '/music/theory/10.作曲和弦篇：五度圈和和弦进程' },
           ],
         },
       ],
