@@ -65,19 +65,7 @@ export default defineConfig({
       { text: '主页', link: '/' },
       { text: '代码之道', items: [{ text: 'Node.js', link: '/code/nodejs/00.NVM 和 NPM' }] },
       { text: '音乐让我说', items: [{ text: '叨叨冯乐理课', link: '/music/theory/01.音名、五线谱谱号与音高' }] },
-      {
-        text: '遇事不决',
-        items: [
-          {
-            text: '电磁学',
-            items: [
-              { text: '电场力学篇', link: '/work/electromagnetism/electric-field-power/01.电荷量、元电荷、电荷守恒定律' },
-              // { text: '电场能量篇', link: '/work/electromagnetism/electricfielda-energy/01' },
-              // { text: '电场综合篇', link: '/work/electromagnetism/electricfieldb-composite/01' },
-            ],
-          },
-        ],
-      },
+      { text: '软考', items: [{ text: '网络工程师', link: '/work/network/第00章 基础知识' }] },
     ],
     // 侧边栏菜单
     sidebar: {
@@ -104,21 +92,16 @@ export default defineConfig({
           ],
         },
       ],
-      '/work/electromagnetism/electric-field-power': [
+      '/work/': [
         {
-          text: '电场力学篇',
+          text: '网络工程师',
           items: [
-            { text: '电荷量、元电荷、电荷守恒定律', link: '/work/electromagnetism/electric-field-power/01.电荷量、元电荷、电荷守恒定律' },
-            { text: '起电与验电器', link: '/work/electromagnetism/electric-field-power/02.起电与验电器.md' },
+            { text: '第00章 基础知识', link: '/work/network/第00章 基础知识' },
+            { text: '第01章 计算机网络概论', link: '/work/network/第01章 计算机网络概论' },
+            { text: '第02章 数据通信基础', link: '/work/network/第02章 数据通信基础' },
           ],
         },
       ],
-      // '/work/electromagnetism/electricfielda-energy': [
-      //   {
-      //     text: '电场能量篇',
-      //     items: [{ text: 'AAA', link: '/work/electromagnetism/electricfielda-energy/01' }],
-      //   },
-      // ],
     },
   },
 });
